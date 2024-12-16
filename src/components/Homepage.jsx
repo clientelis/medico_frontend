@@ -9,9 +9,7 @@ import Listing from './Listing'
 const HomePage = () => {
     return (
         <>
-            <div>
-                <Header />
-            </div>
+            
             <div className='w-full mt-10 flex flex-col gap-4'>
 
                 <div className='bg-cover  h-[190px] w-full lg:h-[900px] flex justify-center items-center' style={{ backgroundImage: `url(${pills})` }}>

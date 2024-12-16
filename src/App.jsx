@@ -2,13 +2,24 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HomePage from './components/Homepage'
-
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from './shared/Header'
+import Footer from './shared/Footer'
+const App = () => {
 
   return (
-    <>
-      <HomePage/>
-    </>
+    <Router>
+      <Header />
+      <main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+        </Routes>
+
+      </main>
+      <Footer></Footer>
+    </Router>
+
+
   )
 }
 
