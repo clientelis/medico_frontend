@@ -9,6 +9,6 @@ export const NavbarElements = [
     },
     {
         title: 'Verificateur d\'interactions',
-        link:'/check-interactions'
+        link:'/interaction-checker'
     }
 ]

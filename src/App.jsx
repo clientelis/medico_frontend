@@ -5,6 +5,7 @@ import HomePage from './components/Homepage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './shared/Header'
 import Footer from './shared/Footer'
+import InteractionChecker from './components/InteractionChecker'
 const App = () => {
 
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path='/interaction-checker' element={<InteractionChecker/>}/>
         </Routes>
 
       </main>
