@@ -8,6 +8,8 @@ import { motion } from 'framer-motion'
 import Listing from './Listing'
 import Filter from './Filter'
 import UseAxios from '../api/UseAxios'
+
+
 const HomePage = () => {
     const [medications, setMedications] = useState([])
     const [page, setPage] = useState(1)
@@ -20,8 +22,6 @@ const HomePage = () => {
     const [isFilter, setIsFilter] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     
-
-
     const urlBuilder = () => {
         let url = `/medicaments?page=${page}`
 

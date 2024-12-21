@@ -1,5 +1,5 @@
 import axios from 'axios';
-const token = '1|cqWFymIwIli5HIB2uNa0Cdgk36fwUmz4n83gKQcH89a3d628'
+const token = '3|2hAftJ7wCb76HTJYMwu8lOWdlHx9ym1J5KvcNLvUce23c54f'
 const http = axios.create({
     baseURL: 'http://localhost:8000/api',
     headers: {
