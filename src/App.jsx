@@ -5,7 +5,7 @@ import HomePage from './components/Homepage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './shared/Header'
 import Footer from './shared/Footer'
-import InteractionChecker from './components/InteractionChecker'
+import InteractionChecker from './components/DrugInteraction/InteractionChecker'
 const App = () => {
 
   return (
